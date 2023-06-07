@@ -1,0 +1,12 @@
+name: xeus-python-kernel
+channels:
+  - https://repo.mamba.pm/emscripten-forge
+  - nodefaults
+platform: emscripten-32
+dependencies:
+  - numpy
+  - matplotlib
+  - scipy
+  - sympy
+  - ipywidgets
+  - ipycanvas
